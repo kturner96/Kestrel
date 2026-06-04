@@ -3,6 +3,7 @@ module github.com/kturner96/kestrel/backend
 go 1.26.3
 
 require (
+	github.com/gorilla/mux v1.8.1
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/joho/godotenv v1.5.1
 )
