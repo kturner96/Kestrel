@@ -58,15 +58,4 @@ func (h *Handler) HandlePost(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// doorStatus := "closed."
-
-	// if payload.DoorOpen {
-	// 	doorStatus = "open."
-	// }
-
-	
-
-	// fmt.Printf("---ReedSwitch---\n")
-	// fmt.Printf("Sensor ID: %d\n Time: %s\n Door is %s\n ", payload.Id, payload.TriggeredAt,doorStatus)
-
 }
